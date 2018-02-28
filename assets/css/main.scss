@@ -9,9 +9,9 @@ $goethe-green: #a0c814;
 $goethe-blue: #47abd8;
 $museuimigracao-red: #EE2D24;
 
-$ariel-color: $museuimigracao-red;
-$claudia-color: $goethe-green;
-$rita-color: $goethe-blue;
+$ariel-color: #00738a;
+$claudia-color: #ffffff;
+$rita-color: #ffec00;
 
 
 // Our variables
@@ -27,9 +27,9 @@ $spacing-unit:     30px;
 
 $text-color:       	#adb3b6;
 $background-hr:		#1B1B1B;
-$background-color: 	#1B1B1B;
-$background-darker: #1B1B1B;
-$brand-color:	   	#a0c814; // Goethe-Institut: #a0c814 MI: #EE2D24
+$background-color: 	#000000;
+$background-darker: #000000;
+$brand-color:	   	$rita-color; // Goethe-Institut: #a0c814 MI: #EE2D24
 $anchor-hover-color:	darken($brand-color, 5%);
 
 $player-now-playing-size:   13px;
