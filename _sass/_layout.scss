@@ -145,7 +145,7 @@
     #border-top: 1px solid $background-hr;
     padding-top: 0em;
     #text-align: right;
-    background-color: #dddddd;
+    #background-color: #dddddd;
     padding: 1em;
 
     img {
@@ -380,7 +380,7 @@
 }
 
 .post-title {
-    font-size: 26px;
+    font-size: 20px;
     //letter-spacing: -1px;
     line-height: 1;
 
@@ -391,10 +391,10 @@
 
 .post-title-episode {
     .post-header-stop-id {
-        color: #ffffff;
+        color: $brand-color;
         display: inline-block;
-        font-size: 26px;
-        line-height: 26px;
+        font-size: 20px;
+        line-height: 20px;
         text-align: center;
         vertical-align: center;
         border-radius: $tile-border-radius;
@@ -415,9 +415,10 @@
     .post-header-section-title {
         //color: lighten($brand-color, 20%);
         display: inline-block;
-        color: lighten($brand-color, 50%);
-        font-size: 26px;
-        line-height: 26px;
+        //color: lighten($brand-color, 50%);
+        color: $brand-color;
+        font-size: 20px;
+        line-height: 20px;
         margin-top: 0;
         margin-bottom: 0.25em;
         text-align: center;
@@ -425,7 +426,7 @@
     .post-header-title {
         color: lighten($brand-color, 10%);
         font-size: 20px;
-        line-height: 26px;
+        line-height: 20px;
         margin-top: 0;
         margin-bottom: 0;
         text-align: center;
@@ -442,7 +443,7 @@
     margin-bottom: 106px;
 
     h2 {
-        font-size: 26px;
+        font-size: 20px;
 
         @include media-query($on-laptop) {
             font-size: 22px;
