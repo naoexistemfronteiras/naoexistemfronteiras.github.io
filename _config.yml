@@ -11,8 +11,9 @@ artist: Rita Natálio
 project: audioreflex
 email: email@example.com
 description: > # this means to ignore newlines until "baseurl:"
-  audioguia
+  Rita Natálio
 baseurl: "" # the subpath of your site, e.g. /blog
+projecturl: "https://audioreflex.github.io"
 audio_path: "/audio/"
 episode_hero_path: "/assets/img/stops/"
 url: "https://github.com/naoexistemfronteiras/naoexistemfronteiras.github.io" # the base hostname & protocol for your site
@@ -21,7 +22,7 @@ twitter_username: goethesaopaulo
 github_username:  audioreflex
 menu_heading: "Selecione outra faixa"
 index_page_text: "Escolha uma faixa"
-count_stops: 9
+count_stops: 8
 headphones_icon_color: "/assets/img/icons/headphones-dark.png"
 headphones_icon_light: "/assets/img/icons/headphones-light.png"
 
