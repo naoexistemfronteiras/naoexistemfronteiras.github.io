@@ -309,7 +309,7 @@
 }
 
 .page-heading {
-    font-size: 20px;
+    font-size: $base-font-size;
 }
 
 .post-list {
@@ -329,7 +329,7 @@
             width: $tile-size-large;
             height: $tile-size-large;
             display: inline-block;
-            font-size: 20px;
+            font-size: $base-font-size;
             //width: $spacing-unit * 3;
             //height: $spacing-unit * 3;
             border-radius: $tile-border-radius;
@@ -381,7 +381,7 @@
 }
 
 .post-title {
-    font-size: 20px;
+    font-size: $base-font-size;
     //letter-spacing: -1px;
     line-height: 1;
 
@@ -394,8 +394,8 @@
     .post-header-stop-id {
         color: #ffffff;
         display: inline-block;
-        font-size: 20px;
-        line-height: 20px;
+        font-size: $base-font-size;
+        line-height: $base-font-size;
         text-align: center;
         vertical-align: center;
         border-radius: $tile-border-radius;
@@ -417,16 +417,16 @@
         //color: lighten($brand-color, 20%);
         display: inline-block;
         color: $player-progress-color;
-        font-size: 20px;
-        line-height: 20px;
+        font-size: $base-font-size;
+        line-height: $base-font-size;
         margin-top: 0;
         margin-bottom: 0.25em;
         text-align: center;
     }
     .post-header-title {
         color: lighten($brand-color, 10%);
-        font-size: 20px;
-        line-height: 20px;
+        font-size: $base-font-size;
+        line-height: $base-font-size;
         margin-top: 0;
         margin-bottom: 0;
         text-align: center;
@@ -443,7 +443,7 @@
     margin-bottom: 106px;
 
     h2 {
-        font-size: 20px;
+        font-size: $base-font-size;
 
         @include media-query($on-laptop) {
             font-size: 22px;
@@ -451,7 +451,7 @@
     }
 
     h3 {
-        font-size: 20px;
+        font-size: $base-font-size;
         color: lighten($brand-color, 10%);
 
         @include media-query($on-laptop) {
@@ -497,6 +497,7 @@ Hero images on audio guide stop pages
     //height: 150px;
     //background-color: $background-darker;
     text-align: center;
+    font-size: $small-font-size;
 
     img {
         width: 100%;
@@ -543,9 +544,9 @@ Audio Player Styling
 
 .player-now-playing {
     display: block;
-    font-size: $player-now-playing-size;
+    font-size: $small-font-size;
     color: $text-color;
-    line-height: $player-now-playing-size;
+    line-height: $small-font-size;
     //height: $player-now-playing-size * 3;
     //height: auto;
     margin-top: 0;
